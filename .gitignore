@@ -1,0 +1,25 @@
+# Compiled output and local tooling
+build/
+out/
+classes/
+*.class
+.idea/
+*.iml
+.vscode/
+
+# Local game state
+save.txt
+
+# Operating-system metadata
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+

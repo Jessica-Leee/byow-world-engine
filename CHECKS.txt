@@ -1,0 +1,34 @@
+BYOW cleanup verification
+
+Scope
+- Compiled all 14 Java source files using OpenJDK 23.0.1 with --release 17.
+- Runtime dependency: the existing, unmodified algs4.jar; embedded COPYING
+  preserved in the JAR and copied to third_party/algs4-COPYING.txt.
+- Original course files were not edited. Only World.java and Main.java differ
+  in the copied source tree: retained constructor seed; Spanish-menu quit key Q.
+
+Passed
+- Clean compilation with no compiler output/errors.
+- A temporary headless smoke harness (outside this repository) checked seeds
+  0, 1, 42, 2024, and 1234567890123456789.
+- Checks: seed retention; deterministic world generation; movement onto an
+  adjacent floor; reconstruction from saved seed and avatar coordinates;
+  visibility toggle keeps the avatar visible.
+- Static check of menu branches confirms Q quits in both languages and S
+  remains the language switch.
+- File scan found no matching token/private-key/student-ID assignments or
+  absolute user paths in staged text. No text/EXIF PNG metadata was present.
+- Dependency SHA-256 matches the existing local library file.
+- No original Git history, IDE metadata, compiled classes, local save, or
+  duplicate platform files are included. Temporary compilation output removed.
+
+Limits
+- The graphical UI and actual disk save/load interaction were not exercised.
+- The optional AutograderBuddy.getWorldFromInput method returns null in the
+  original code. The original visual WorldGenTests depends on that method;
+  two other tests are placeholders. That suite was not run or counted as passed.
+- The temporary smoke harness is not a comprehensive regression suite.
+- Radius visibility does not account for wall occlusion.
+- The course framework, generated-world algorithm, and optional autograder
+  interface were otherwise preserved. No feature or algorithm rewrite was made.
+- No GitHub repository, push, or publication was performed by this task.
