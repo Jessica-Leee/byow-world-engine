@@ -2,6 +2,16 @@
 
 A Java tile-world exploration project developed for **UC Berkeley CS 61B, Fall 2024**, Project 3: Build Your Own World. This is a cleaned copy of a two-person course project. Individual contributions have not been reconstructed or assigned here.
 
+## Repository map
+
+| Location | Purpose |
+| --- | --- |
+| [`src/core/`](src/core/) | World generation, movement, menu, and save/load code. |
+| [`src/tileengine/`](src/tileengine/), [`src/utils/`](src/utils/), [`src/demo/`](src/demo/) | Retained course rendering, utility, and example code. |
+| [`tests/`](tests/) | Original course tests, including unfinished optional checks. |
+| [`lib/`](lib/), [third-party notes](THIRD_PARTY.md) | Included rendering dependency and its preserved license. |
+| [Verification record](CHECKS.txt) | Completed checks and their coverage limits. |
+
 ## Features
 
 - Seeded generation of rooms, connecting hallways, floors, and walls on a 40 × 40 grid.
@@ -54,7 +64,8 @@ The original files were left unchanged. This copy omits IDE metadata, compiled o
 
 The original `tests/WorldGenTests.java` is retained for context. Its visual test relies on the optional `AutograderBuddy.getWorldFromInput` method, which remains unimplemented, and two tests are placeholders. It is not presented as a passing automated suite. See `CHECKS.txt` for the actual checks and remaining limits.
 
+The verification record was produced during archive preparation on **October 14, 2026**. It covers compilation and five-seed headless checks; it does not cover graphical interaction or actual disk save/load. This documentation refresh did not rerun the application or tests.
+
 ## Private course archive
 
 Keep this repository **private**. CS 61B's course policy prohibits posting project solutions publicly, including after the semester. This archive is for private review and preservation; it does not grant permission to redistribute course code, assets, or collaborators' work.
-
