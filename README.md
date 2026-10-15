@@ -1,4 +1,4 @@
-# BYOW World Engine
+# BYOW World Exploration — CS 61B
 
 A Java tile-world exploration project developed for **UC Berkeley CS 61B, Fall 2024**, Project 3: Build Your Own World. This is a cleaned copy of a two-person course project. Individual contributions have not been reconstructed or assigned here.
 
