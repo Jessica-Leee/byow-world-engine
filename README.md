@@ -66,6 +66,6 @@ The original `tests/WorldGenTests.java` is retained for context. Its visual test
 
 The verification record was produced during archive preparation on **October 14, 2026**. It covers compilation and five-seed headless checks; it does not cover graphical interaction or actual disk save/load. This documentation refresh did not rerun the application or tests.
 
-## Private course archive
+## Course source and sharing terms
 
-Keep this repository **private**. CS 61B's course policy prohibits posting project solutions publicly, including after the semester. This archive is for private review and preservation; it does not grant permission to redistribute course code, assets, or collaborators' work.
+CS 61B's course policy prohibits posting project solutions publicly, including after the semester. Course code, assets, and collaborators' work retain their original attribution and applicable sharing restrictions. Repository visibility does not grant additional redistribution rights.
